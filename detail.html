@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stijlspins - Product Detail</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="media/logo.png" alt="Stijlspins Logo" class="logo">
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Menu <span class="dropdown-arrow">▼</span></button>
+            <div class="dropdown-content">
+                <a href="home.html">Home</a>
+                <a href="detail.html">Detail</a>
+                <a href="winkel.html" class="cart-badge">
+                    Winkelmandje
+                    <span class="cart-counter" id="cart-counter">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="product-detail">
+        <div class="product-image">
+            <img id="product-img" src="media/jeans-1.webp" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1 class="product-title" id="product-title">Relaxed Jeans</h1>
+            <div class="product-price" id="product-price">€ 34,99</div>
+            
+            <div class="product-color" id="product-color">Kleur: Licht deminblauw</div>
+            <div class="product-size-label">Selecteer de maat</div>
+            
+            <div class="size-options">
+                <div class="size-option" data-size="XS">XS</div>
+                <div class="size-option" data-size="S">S</div>
+                <div class="size-option" data-size="M">M</div>
+                <div class="size-option" data-size="L">L</div>
+            </div>
+            
+            <button class="add-to-cart" id="add-to-cart-btn">Bestellen</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="social-icons">
+            <div class="social-icon"></div>
+            <div class="social-icon"></div>
+            <div class="social-icon"></div>
+        </div>
+    </div>
+    <script src="detail.js"></script>
+</body>
+</html>
